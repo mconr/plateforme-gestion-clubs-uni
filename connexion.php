@@ -1,3 +1,3 @@
-<?php 
-    $con= mysqli_connect ("localhost","root","","estg_club");
+<?php
+$con = mysqli_connect("localhost","root","","base");
 ?>
