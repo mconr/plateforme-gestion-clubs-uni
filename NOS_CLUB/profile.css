@@ -1,0 +1,116 @@
+h1{
+    text-align:center;
+    margin-bottom:50px;
+    margin-top:50px;
+  }
+  .blog-card0-blog {
+      margin-top: 20px;
+      
+  }
+  .no {
+    margin-top: 70px;
+   
+   
+}
+
+  .blog-card0 {
+      display: inline-block;
+      position: relative;
+      width: 204vh;
+   
+      margin-bottom: 0px;
+      border-radius: 6px;
+      color: rgba(0, 0, 0, 0.87);
+       /* background: rgb(255, 255, 255);   */
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+     
+  }
+  .blog-card0 .blog-card0-image {
+      height: 300px;
+      width: 300px;
+      position: relative;
+      
+      overflow: hidden;
+      margin-left: 545px;
+      margin-right: 15px;
+      margin-top: -30px;
+      border-radius: 6px;
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card0 .blog-card0-image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      pointer-events: none;
+  }
+  .blog-card0 .blog-table {
+      padding: 15px 30px;
+  }
+  .blog-table0 {
+      margin-bottom: 0px;
+     
+  }
+  .blog-category0 {
+      position: relative;
+      line-height: 0;
+      margin: 15px 0;
+      
+  }
+  .blog-text-success0 {
+      color: #28a745!important;
+  }
+  .blog-card0-blog .blog-card0-caption0 {
+      margin-top: 5px;
+  }
+  .blog-card0-caption0 {
+      font-weight: 700;
+      font-family: "Roboto Slab", "Times New Roman", serif;
+  }
+  .fa {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  .blog-card0-caption, .blog-card0-caption a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+  }
+  
+  
+  .col-lg-3 p{
+    color: #fff;
+}
+  .blog-card0 .ftr {
+      margin-top: 15px;
+  }
+  .blog-card0 .ftr .author {
+      color: rgb(255, 255, 255);
+  }
+  
+  .blog-card0 .ftr div {
+      display: inline-block;
+  }
+  .blog-card0 .author .avatar {
+      width: 36px;
+      height: 36px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 5px;
+  }
+  .blog-card0 .ftr .stats {
+      position: relative;
+      top: 1px;
+      font-size: 14px;
+  }
+  .blog-card0 .ftr .stats {
+      float: right;
+      line-height: 30px;
+    
+  }
+  .container44{
+      text-align: center;
+  }
+ 
