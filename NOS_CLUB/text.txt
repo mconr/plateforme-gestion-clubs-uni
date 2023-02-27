@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  href="profile.css"> 
+        <link rel="stylesheet"  href="style.css"> 
+        <title>CampusESTG : PROFILE CLUB</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+      
+        <!-- Favicons -->
+        <link href="img/favicon.png" rel="icon">
+        <link href="img/logo.png" rel="apple-touch-icon">
+      
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+      
+        <!-- Bootstrap CSS File -->
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      
+        <!-- Libraries CSS Files -->
+        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+      
+        <!-- Main Stylesheet File -->
+        <link href="css/style.css" rel="stylesheet">
+      
+        
+      </head>
+      
+      <body>
+      
+        <!--==========================
+        Header
+        ============================-->
+        <header id="header" class="fixed-top">
+          <div class="container">
+      
+            <div class="logo float-left">
+              <!-- Uncomment below if you prefer to use an image logo -->
+              <!-- <h1 class="text-light"><a href="#header"><span>CampusESTG</span></a></h1> -->
+              <a href="index.html #intro " class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+            </div>
+      
+            <nav class="main-nav float-right d-none d-lg-block">
+              <ul>
+                <li ><a href="index.php #intro">Home</a></li>
+                <li><a href="index.php #services">Services</a></li>
+                <li><a href="index.php #testimonials">Events</a></li>
+                <li><a href="index.php #clubs">clubs</a></li>
+                <li><a href="index.php #about">About Us</a></li>
+                <li><a href="index.php #team">Team</a></li>
+                <li><a href="index.php #contact">Contact Us</a></li>
+                <li class="active drop-down"><a href="index.php #why-us" class=" btnheader"><span>Espaces</span></a>
+                  <ul>
+                    
+                    <li class="drop-down"><a href="#">Espace Etudiant</a>
+                      <ul>
+                        <li><a href="#">S'inscrire à un Club</a></li>
+                        <li><a href="#">Créer Un Club</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">Espace Président du club</a>
+                      <ul>
+                        <li><a href="#">Connexion</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">Espace Gérant</a>
+                      <ul>
+                        <li><a href="#">Connexion</a></li>
+                      </ul>
+                    </li>
+                    
+                  </ul> 
+                </li>
+              </ul>
+            </nav><!-- .main-nav -->  
+          </div>
+        </header>
+        <!-- #header -->
+        
+    <!--==========================
+      Events Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+        <br><br><br><br>
+        <!--header class="section-header">
+          <h3>Les Evénements</h3>
+          <p>Vous trouverez ici tout les Events publiées sur <span style="color: rgb(207, 48, 136);">CAMPUS</span>ESTG par les Clubs.</p>
+        </header-->
+            
+<?php
+
+ echo "<h1> ".$rows['Nom_club']." </h1>";
+
+      ?>
+         <?php
+                   }
+                     ?>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+  <div class="blog-card blog-card-blog">
+    <div class="blog-card-image">
+        <a href="#"> <img class="img" src="https://picsum.photos/id/1084/536/354?grayscale"> </a>
+        <div class="ripple-cont"></div>
+    </div>
+    <div class="blog-table">
+        <!-- <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6> -->
+        <h4 class="blog-card-caption">
+            <a href="#"> NOM EVENEMENT </a>
+        </h4>
+        <!-- <p class="blog-card-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
+        <div class="ftr">
+            <div class="author">
+                <a href="#"> <span>LEARN MORE</span> </a>
+            </div>
+            <!-- <div class="stats"> <i class="far fa-clock"></i> </div> -->
+        </div>
+    </div>
+</div>
+</div>
+    
+    
+    
+  </div>
+</div>
+    </section><!-- #services -->
+     <!--==========================
+      clubs Section
+    ============================-->
+
+  <!--  Footer  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3><span style="color: rgb(207, 48, 136);">CAMPUS</span>ESTG</h3>
+            <p>Cette Application Web, est un travail réalisé par un group des étudaints de l'Ecole Supérieure de Technologies, en vue de faciliter la vie scolaire au sein de leur établissement.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Suivez-Nous</h4>
+            <ul>
+              <li class="active"><a href="#intro">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#clubs">clubs</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Avenue Abou Maachar Al Balkhi <br>
+              B.P 1317, GUELMIM<br>
+              MAROC <br>
+              <strong>Tél:</strong> 05 28 77 02 73<br>
+              <strong>Fax:</strong> 05 28 77 27 46<br>
+              <strong>Email:</strong> Estg@uiz.ac.ma<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Restez Branchés !</h4>
+            <p>Restez connecté aux dernières nouvelles et informations de <strong><span style="color: rgb(207, 48, 136);">CAMPUS</span>ESTG</strong>.</p>
+            <!-- -------------------- -->
+          
+            <form action=" <?php
+                  
+                  if(isset($_POST['abonner']) & isset($_post['email'])){
+                      require 'connexion.php';
+                      $mail = $_POST['email'];
+                      $req = "INSERT INTO `mailabonne`(`email`) 
+                                              VALUES ('$mail')";
+                      $query = mysqli_query($con,$req);
+                      if(isset($query)){
+                          $text= "succee";
+                      }else{
+                         $text =  "echec";
+                      }
+                  }
+            ?>" method="post">
+              <input type="email" name="email">
+              <input type="submit" name="abonner"  value="Abonner">  
+              <br>
+              <p> <?php $text ?> </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>CampusESTG</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#team">BADR & WISSAL & MONIR</a>
+      </div>
+    </div>
+  </footer>
+  <!-- #footer -->
+          <!----------------------------aaaaaaaaaaaaadddddddddddddddddddddddddddddddddddddddddddd------------------------->
+          
+          <!-- Uncomment below i you want to use a preloader -->
+           <img src="img/Prelaoder.gif" class="preldr container col-lg-5" id="preloader">     
+        
+          <!-- JavaScript Libraries -->
+          <script src="lib/jquery/jquery.min.js"></script>
+          <script src="lib/jquery/jquery-migrate.min.js"></script>
+          <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+          <script src="lib/easing/easing.min.js"></script>
+          <script src="lib/mobile-nav/mobile-nav.js"></script>
+          <script src="lib/wow/wow.min.js"></script>
+          <script src="lib/waypoints/waypoints.min.js"></script>
+          <script src="lib/counterup/counterup.min.js"></script>
+          <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+          <script src="lib/isotope/isotope.pkgd.min.js"></script>
+          <script src="lib/lightbox/js/lightbox.min.js"></script>
+          <!-- Contact Form JavaScript File -->
+          <script src="contactform/contactform.js"></script>
+        
+          <!-- Template Main Javascript File -->
+          <script src="js/main.js"></script>
+</body>
+</html-->
