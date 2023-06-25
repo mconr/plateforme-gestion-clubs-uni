@@ -49,6 +49,10 @@ Ce projet vise à faciliter la gestion des différents clubs de l'école. Les cl
 
 ![image](https://github.com/mconr/plateforme-gestion-clubs-uni/assets/55603967/2ca961bc-adbb-4357-9347-55566227672f)
 
+![image](https://github.com/mconr/plateforme-gestion-clubs-uni/assets/55603967/a0319d10-5a35-4920-9ce6-2d924960ca35)
 
 
 
+
+
+Monir Chelh !
